@@ -12,7 +12,7 @@ public class TestDao {
 		System.out.println("Players:");
 		System.out.println(dao.listAllPlayers());
 		System.out.println("Actions:");
-		System.out.println(dao.listAllActions());
+		System.out.println(dao.mediaGoal(0.5));
 	}
 
 }
